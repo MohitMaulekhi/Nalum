@@ -8,8 +8,10 @@ export default function Home() {
   return (
     <>
       <div className="home-nav">
-        <Image src={NsutLogo} height={50} alt = ""></Image>
+        <Image src={NsutLogo} height={50} alt=""></Image>
       </div>
+
+
       <Navigation></Navigation>
       <main className="home">
         <div className="banner">
@@ -18,11 +20,12 @@ export default function Home() {
           </div>
         </div>
       </main>
+      
       <main className="about">
         <div className="table">
           <div className="col">
             <Image
-            alt = ""
+              alt=""
               src={AlumniGroup}
               height="0"
               width="0"
